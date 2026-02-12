@@ -200,3 +200,16 @@ font-family: "Grenze", sans-serif;
   font-size: 16px;
 }
 }
+/* The Philosophy Of Luck */
+.philosophy-text{
+  width: 307px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+@media only screen and (min-width: 1440px) {
+  .philosophy-text{
+    width: 100%;
+    font-size: 16px;
+  }
+}
