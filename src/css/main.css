@@ -97,6 +97,8 @@
    flex-direction: column;
    gap: 24px; 
 }
+/* The Seven Spirits */
+
 /* The Flow Of Play */
 .flow-section{
     background-image: url("/img/flow/mob.png");
