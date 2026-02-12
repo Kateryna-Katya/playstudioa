@@ -97,3 +97,27 @@
    flex-direction: column;
    gap: 24px; 
 }
+/* The Flow Of Play */
+.flow-section{
+    background-image: url("/img/flow/mob.png");
+    background-repeat: no-repeat;
+    background-size: 100% 670px;
+    background-position: top  center;
+    height: 664px;
+}
+.flow-wrapper{
+  margin-top: 90px;
+  width: 279px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+}
+.flow-text-wrapper{
+    display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-direction: column;
+}
