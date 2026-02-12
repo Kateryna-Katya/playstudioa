@@ -78,3 +78,22 @@
     padding-right: 70px;
   }
 }
+/* bg */
+.big-bg{
+     background-image: url("/img/bg/mob.png");
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+@media only screen and (min-width: 1440px) {
+.big-bg {
+        background-image: url("/img/bg/desk.png");
+
+    }
+}
+/* The Valley Itself */
+.valley-wrapper{
+   display: flex;
+   flex-direction: column;
+   gap: 24px; 
+}
