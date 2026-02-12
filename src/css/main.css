@@ -97,7 +97,6 @@
    flex-direction: column;
    gap: 24px; 
 }
-/* The Seven Spirits */
 
 /* The Flow Of Play */
 .flow-section{
@@ -122,4 +121,23 @@
       align-items: center;
       gap: 24px;
       flex-direction: column;
+}
+@media only screen and (min-width: 1440px) {
+  .flow-section{
+    background-image: url("../img/flow/desk.png");
+    background-size: 100% 636px;
+    height: 700px;
+  }
+  .flow-wrapper{
+    flex-direction: row;
+    width: 775px;
+      height: 197px;
+      margin-top: 130px;
+  }
+  .flow-text-wrapper{
+    width: 401px;
+      height: 179px;
+      text-align: left;
+      align-items: start;
+  }
 }
