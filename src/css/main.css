@@ -246,3 +246,149 @@ font-size: 14px;
   font-size: 16px;
  }
 }
+/* Demo */
+.demo-container {
+  position: relative;
+
+}
+
+
+.demo-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 32px auto 0;
+  height: 622px;
+}
+
+.demo-img {
+  width: 323px;
+  height: 622px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  display: inline-block;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* ===== ФОН ===== */
+
+.demo-img {
+  width: 100%;
+  display: block;
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  transform: translateX(-48%);
+  width: 68%;
+  height: 54%;
+  z-index: 5;
+
+  /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+  pointer-events: none;
+}
+
+#gameIframe {
+  width: 125%;
+  height: 174%;
+  border: none;
+  display: none;
+  background: #000;
+  border-radius: 40px;
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+  pointer-events: auto;
+  z-index: 20;
+}
+
+#gameIframe.active {
+  display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  display: none;
+
+  z-index: 9999;
+  /* 🔥 НАД iframe */
+  pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+  display: block;
+}
+
+.close-img {
+  width: 24px;
+  height: 24px;
+
+}
+
+@media only screen and (min-width: 1440px) {
+  .demo-section {
+    background-image: url("/img/demo/desk.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .demo-wrapper {
+    margin: 40px auto 0;
+    height: 682px;
+  }
+
+  .demo-img {
+    width: 942px;
+    height: 682px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .iframe-wrapper {
+    top: 4%;
+    left: 46%;
+    transform: translateX(-48%);
+    width: 68%;
+    height: 54%;
+  }
+
+  #gameIframe {
+    width: 108%;
+    height: 170%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 30px;
+  }
+
+
+
+
+
+}

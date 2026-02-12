@@ -152,4 +152,43 @@
         </div>
     </div>
 </article>
+<article class="demo-section" id="demo">
+    <div class="container demo-container">
+<div class="title-container">
+    <img src="/img/sakura.png" alt="sakura" loading="lazy">
+    <h2>Play Valley of Dreams</h2>
+    <img src="/img/sakura.png" alt="sakura" loading="lazy">
+</div>
+
+        <h3>Play Move slowly. Let it unfold.</h3>
+        <div class="demo-wrapper" id="game">
+            <picture>
+                <source srcset="
+                /img/demo/demo-desk.png 1x,
+                /img/demo/demo-desk@2x.png 2x
+                " media="(min-width: 1440px)" />
+                <source srcset="
+                /img/demo/demo-mob.png 1x,
+                /img/demo/demo-mob@2x.png 2x
+                " media="(max-width: 1439px)" />
+                <img class="demo-img" src="/img/demo/demo-mob.png" alt="Heads & Tails" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe" name="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img class="close-img" src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+            <a class="demo-btn btn" href="#"
+                data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/valleyofdreams"
+                target="gameIframe">
+                <p>Play</p>
+            </a>
+        </div>
+
+    </div>
+</article>
 </section>
