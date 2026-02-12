@@ -1,32 +1,54 @@
-:root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body{
+  background: #8bbded;
+  font-family: "Grenze", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: center;
+    color: #0b1930;
 }
-
-body {
+h2{
+  font-family: "Grenze", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #0b1930;
+}
+.title-container{
   display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+  align-items: center;
+  gap: 10px;
 }
-
-main {
-  flex-grow: 1;
+h3{
+  font-family: "Grenze", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #0b1930;
 }
-main:has(.back-link) {
-  text-align: center;
+.btn{
+  border: 1px solid #6a4b37;
+    border-radius: 999px;
+    padding: 15px;
+    width: 320px;
+    height: 56px;
+    box-shadow: 1px 1px 2px 0 rgba(106, 75, 55, 0.6);
+      background: linear-gradient(180deg, #d67e20 0%, #42230f 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Grenze", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.3;
+        color: #fdfdfd;
+        text-shadow: 0 1px 1px 0 rgba(11, 25, 48, 0.4);
+        transition: all 0.3s ease-in-out;
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+  background: linear-gradient(180deg, #d67e20 0%, #42230f 45.67%);
+  text-shadow: none;
 }
