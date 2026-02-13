@@ -380,9 +380,25 @@ width: 942px;
     background: #000;
     border-radius: 30px;
   }
-
-
-
-
-
+}
+/* The valley doesn’t disappear when you leave. */
+.close-title{
+  font-family: "Grenze", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #0b1930;
+}
+.close-text{
+  font-size: 14px;
+  margin-top: 24px;
+}
+@media only screen and (min-width: 1440px) {
+ .close-title{
+  font-size: 24px;
+ }
+ .close-text{
+  font-size: 16px;
+ }
 }
