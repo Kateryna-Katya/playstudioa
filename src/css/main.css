@@ -276,6 +276,7 @@ font-size: 14px;
   display: inline-block;
   top: 80%;
   left: 50%;
+  width: 240px;
   transform: translate(-50%, -50%);
 }
 
@@ -309,7 +310,7 @@ font-size: 14px;
   border: none;
   display: none;
   background: #000;
-  border-radius: 40px;
+  border-radius: 30px;
 }
 
 /* АКТИВНИЙ СТАН */
@@ -351,35 +352,28 @@ font-size: 14px;
 }
 
 @media only screen and (min-width: 1440px) {
-  .demo-section {
-    background-image: url("/img/demo/desk.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-  }
-
   .demo-wrapper {
     margin: 40px auto 0;
     height: 682px;
   }
 
   .demo-img {
-    width: 942px;
-    height: 682px;
+width: 942px;
+  height: 682px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .iframe-wrapper {
     top: 4%;
-    left: 46%;
+    left: 42%;
     transform: translateX(-48%);
     width: 68%;
     height: 54%;
   }
 
   #gameIframe {
-    width: 108%;
+    width: 120%;
     height: 170%;
     border: none;
     display: none;
